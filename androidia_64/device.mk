@@ -167,6 +167,14 @@ PRODUCT_PACKAGES += \
     vibrator.default.so \
     keystore.default.so
 
+# libva, vaapi
+PRODUCT_PACKAGES += \
+    libva \
+    libva-android \
+    libva-egl \
+    libva-tpi \
+    i965_drv_video
+
 # Sensors
 PRODUCT_PACKAGES += \
     sensorhubd      \
